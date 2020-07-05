@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { format } from 'date-fns';
 
 import income from '../../assets/income.svg';
 import outcome from '../../assets/outcome.svg';
@@ -95,9 +94,7 @@ const Dashboard: React.FC = () => {
                     {formatValue(transaction.value)}
                   </td>
                   <td>{transaction.category.title}</td>
-                  <td>
-                    {format(new Date(transaction.created_at), 'dd/MM/yyyy')}
-                  </td>
+                  <td>{transaction.formattedDate}</td>
                 </tr>
               ))}
             </tbody>
