@@ -21,7 +21,7 @@ Jest ✔
 - 1º Passo:
   rodar `yarn` ou `npm install` no terminal para baixar todas as dependências
 
-- 2º Passo: rodar `yarn start` ou `npm run start` para subir o servidor
+- 2º Passo: rodar `yarn start` ou `npm start` para subir o servidor
 
 - 3º Passo: abrir o browser e acessar o `http://localhost:3333`
 
